@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4e2sktshlvyy"]
+
+[ext_resource type="PackedScene" uid="uid://bl8kxbnd0632k" path="res://scenes/levels/level_1.tscn" id="1_a4cuq"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="SubViewport" type="SubViewport" parent="."]
+size = Vector2i(1000, 700)
+
+[node name="main" parent="SubViewport" instance=ExtResource("1_a4cuq")]
